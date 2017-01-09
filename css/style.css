@@ -8,6 +8,7 @@ h1 {
 	text-align: center;
 	margin-top: 30px;
 	margin-bottom: 50px;
+	font-size: 75%; 
 }
 
 #title1,#title2,#title3 {
@@ -21,6 +22,7 @@ h1 {
 	text-align: center;
 	font-weight: bold;
 	padding-top: 5px;
+	font-size: 25%; 
 }
 
 #title1 {
@@ -73,4 +75,8 @@ div#container {
 	 	float: left;
 	 	width: 50%;
 	 }
+
+	div div:nth-child(3) {
+		width: 100%;
+	}
 }
